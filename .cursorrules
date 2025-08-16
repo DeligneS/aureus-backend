@@ -1,0 +1,62 @@
+.
+├── .cursor
+│   └── mcp.json
+├── .cursorrules
+├── .env
+├── .gitignore
+├── .secrets
+│   ├── production
+│   │   └── 664fd938-a865-447c-a875-7af530d07245.pem
+│   └── sandbox
+│       └── ab4ee6f8-a6b6-4ea0-8cc2-c996b4143a87.pem
+├── dbt
+├── poetry.lock
+├── pyproject.toml
+├── README.md
+├── run_migrations.py
+├── src
+│   └── aureus_backend
+│       ├── __init__.py
+│       ├── api
+│       │   ├── __init__.py
+│       │   ├── auth
+│       │   │   ├── __init__.py
+│       │   │   ├── enablebanking.py
+│       │   │   └── user.py
+│       │   ├── credentials.py
+│       │   ├── ingest
+│       │   │   └── enablebanking.py
+│       │   └── v1
+│       │       ├── __init__.py
+│       │       └── banking.py
+│       ├── clients
+│       │   ├── __init__.py
+│       │   └── enable_banking.py
+│       ├── core
+│       │   ├── __init__.py
+│       │   └── config.py
+│       ├── main.py
+│       ├── migrations
+│       │   ├── 001_create_api_credentials.sql
+│       │   └── 002_enable_rls.sql
+│       ├── models
+│       │   ├── __init__.py
+│       │   ├── api_credentials.py
+│       │   ├── auth.py
+│       │   └── base.py
+│       ├── repositories
+│       │   ├── __init__.py
+│       │   └── api_credentials.py
+│       ├── services
+│       │   ├── __init__.py
+│       │   ├── banking_service.py
+│       │   └── ingestion
+│       │       ├── __init__.py
+│       │       └── enable_banking.py
+│       └── utils
+│           ├── __init__.py
+│           ├── crypto.py
+│           ├── dependencies.py
+│           └── utils.py
+├── test_supabase_connection.py
+└── test.py

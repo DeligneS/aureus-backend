@@ -1,0 +1,41 @@
+# Poetry
+poetry.lock
+dist/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Other
+test.py
+data/
+secrets/
+*.pem
+.secrets/
+test_outputs/
